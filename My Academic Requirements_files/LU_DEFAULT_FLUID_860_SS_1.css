@@ -1,0 +1,29 @@
+
+
+
+:root {
+  --pt-banner-background-color: #5A0722; 
+  --pt-border-contrast-color: #591231; 
+  --pt-strip-height: 0px;
+}
+
+:root.psc_form-small {
+    --pt-strip-height: 0px;
+}
+
+
+.psc_form-xlarge .homePageHdr #pthdr2logofluid:before, .psc_form-large .homePageHdr #pthdr2logofluid:before, .psc_form-medium .homePageHdr #pthdr2logofluid:before, .nuihdr_logo::after{
+	content:url(/cs/cs92prd/cache/5/LUC_LOGO_HP_1.PNG); 
+	transform: scale(0.8);
+}
+
+
+.psc_form-small .homePageHdr #pthdr2logofluid:before,:root.psc_form-small .nuihdr_logo:after{
+	content:url(/cs/cs92prd/cache/5/LUC_LOGO_FLUID_SFF_1.SVG);  
+}
+
+
+#PTS_CFG_CL_WRK_PTS_NOTHING, .PSTEXT {
+display:none;
+}
+

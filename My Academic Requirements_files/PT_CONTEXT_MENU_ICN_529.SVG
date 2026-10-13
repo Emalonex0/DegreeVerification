@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20">
+<style type="text/css"><![CDATA[
+
+  @media (forced-colors: active) and (prefers-color-scheme: dark) {
+
+    [fill="#5C5C5C"],
+    [fill="#5c5c5c"] {
+      fill: #909090 !important;
+    }
+
+    [stroke="#5C5C5C"],
+    [stroke="#5c5c5c"] {
+      stroke: #909090 !important;
+    }
+  }
+
+  @media (forced-colors: active) and (prefers-color-scheme: light) {
+
+    [fill="#FFFFFF"],
+    [fill="#ffffff"],
+    [fill="#FBF9F8"],
+    [fill="#fbf9f8"],
+    [fill="#FBF9F9"],
+    [fill="#fbf9f9"] {
+      fill: #5C5C5C !important;
+    }
+
+    [stroke="#FFFFFF"],
+    [stroke="#ffffff"],
+    [stroke="#FBF9F8"],
+    [stroke="#fbf9f8"],
+    [stroke="#FBF9F9"],
+    [stroke="#fbf9f9"] {
+      stroke: #5C5C5C !important;
+    }
+  }
+
+]]></style>
+
+<path fill="#5C5C5C" d="M10,14c1.1,0,2,0.9,2,2s-0.9,2-2,2s-2-0.9-2-2S8.9,14,10,14z M10,8c1.1,0,2,0.9,2,2s-0.9,2-2,2s-2-0.9-2-2
+	S8.9,8,10,8z M10,2c1.1,0,2,0.9,2,2s-0.9,2-2,2S8,5.1,8,4S8.9,2,10,2z"/>
+</svg>

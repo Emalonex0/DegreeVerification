@@ -1,0 +1,343 @@
+
+.direct_name_link_list {
+  max-width:17.5em;
+  font-weight:bold;
+  display:inline-block;
+  
+  text-overflow:ellipsis;
+  overflow:hidden;
+ }
+.direct_name_link_list > .ps_box-value {
+  max-width:17.5em;
+  text-overflow:ellipsis;
+  overflow:hidden;
+ }
+
+.direct_name_link_card .ps_box-value{
+  max-width:21em;
+  font-weight:bold;
+  padding:0.4em;
+  vertical-align: top;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.direct_jobtitle_list {
+  max-width:22em;
+}
+
+.direct_jobtitle_ellipsis .ps_box-value {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  max-width:20vw;
+  min-width:11em;
+}
+:root.psc_form-small .direct_jobtitle_ellipsis .ps_box-value {
+  max-width:100%;
+  min-width:9em;
+}
+
+
+:root.psc_form-small .direct_card .ps_box-grid {
+  text-align:center;
+}
+
+.direct_card .ps_grid-row {
+  height:165px;
+  width:300px;
+  margin-right:0.2em; 
+  margin-left:0.2em; 
+  margin-top:0.3em;
+  margin-bottom:0.3em;
+  vertical-align:top;
+  border-radius:5px;
+  background-color:rgb(200,215,234);
+  overflow:hidden;
+  cursor:pointer;
+  display:inline-block;
+  text-align:left;
+}
+.direct_card .ps_grid-flex .ps_grid-cell > .ps_box-group > div + div {
+  margin-top:0;
+}
+.direct_card .ps_grid-head-row   {
+display:none;
+}
+.direct_card .ps_grid-cell {
+display: inline;
+padding:0;
+margin:0;
+max-width:300px;
+}
+
+.direct_card .ps_box-edit,
+.direct_card .ps_box-link {
+margin-bottom:0;
+font-size:.9em;
+vertical-align: top;
+}
+
+.direct_card .ps_box-edit.psc_wrappable > .ps_box-value{
+white-space: nowrap;
+}
+
+.direct_card .ps-label{
+color: #000000;
+}
+
+.direct_card_link_color  a:link{
+color: #000000;
+}
+
+.direct_card_photo .ps-img {
+width:115px;
+height:135px;
+}
+
+.direct_list_photo .ps-img {
+width:44px;
+height:55px;
+}
+
+
+.direct_card_header  {
+background-color:#a3bcd8;
+border-bottom: 1px #48688f;
+font-weight:bold;
+height:30px;
+opacity:50%;
+text-shadow: 1px 1px 2px white;
+}
+
+
+.direct_card_borderbottom {
+border-bottom: #558ed5;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+padding-top:.1em;
+font-weight:bold;
+}
+
+
+.direct_icon_nobutton .ps-button:link {
+padding:0;
+}
+
+.direct_icon_nobutton .ps-img {
+width:30px;
+height:30px;
+max-height:30px;
+}
+
+.direct_icon_nobutton .ps-button > img:only-child {
+max-height:30px;
+}
+
+
+.direct_icon_flip1  {
+margin-top: 0.2em;
+
+padding-right:0;
+}
+
+.direct_card_dataitem .ps_box-edit,
+.direct_card_dataitem .ps_box-value,
+.direct_card_dataitem .ps_box-link,
+.direct_card_dataitem .ps-link-wrapper {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      width:13.45em;
+}
+
+.direct_card_dataitem_nophoto .ps_box-edit,
+.direct_card_dataitem_nophoto .ps_box-value,
+.direct_card_dataitem_nophoto .ps_box-link,
+.direct_card_dataitem_nophoto .ps-link-wrapper {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      width:25em;
+}
+
+
+
+
+.direct_icon_size .ps-img   {
+width:1.5em;
+}
+.direct_icon_drilldown .ps-img   {
+width:1.5em;
+display:block;
+margin:auto;
+}
+.direct_icon_drilldown  .ps-link > .ps-img +.ps-text {
+display:block;
+margin:auto;
+text-align:center ;
+}
+.direct_icon_drilldown  .ps-text {
+display:block;
+margin:auto;
+text-align:center ;
+}
+
+.psc_gridview-card > .ps_box-label > .ps-label,
+.psc_toggle-imageitem > .ps_box-label > .ps-label 
+{
+  color: transparent !important;
+  text-shadow: none !important;
+  overflow: hidden !important;
+  width: 1em;
+  height: 1.2em;
+}
+
+
+.psc_gridview-card:not(.psc_selected) > .ps_box-label > .ps-label:before,
+.psc_toggle-imageitem:not(.psc_selected) > .ps_box-label > .ps-label:before
+{
+  position:relative; 
+  top:1px;
+}
+
+
+.psc_gridview-card > .ps_box-label > .ps-label:before {
+  
+	content:url(/cs/cs92prd/cache/5/SAA_CD_CARDVIEW_S_FL_1.SVG);
+}
+.psc_gridview-card > .ps_box-label > .ps-label:hover {
+  content:string("Card View"));
+}
+
+
+.hr_overflow-ellipsis-list  {
+      overflow:hidden;
+      max-width:20vw;
+      min-width:8em;
+}
+
+.hr_overflow-ellipsis-list .ps_box-valueemail {
+      overflow:hidden;
+      max-width:100%;
+      text-overflow:ellipsis;
+}
+
+.hr_overflow-ellipsis_card.psa_email-cardview .ps_box-valueemail,
+.hr_overflow-ellipsis_card.psa_comm-cardview > .ps-link-wrapper > .ps-link {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      width:13.45em;
+}
+
+.hr_overflow-ellipsis_card-nophoto.psa_email-cardview .ps_box-valueemail,
+.hr_overflow-ellipsis_card-nophoto.psa_comm-cardview > .ps-link-wrapper > .ps-link {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      width:25em; 
+}
+
+.cs_overflow-ellipsis_card > .ps_box-value {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      width:15em;
+}
+
+
+.ps_grid-flex .ps_grid-cell > .ps_box-group > div + div.hr_grid_ra_icon{
+   margin-top:-0.5em;
+}
+
+
+
+.hr_dt_leave_scr_modal_size  {
+min-width: 35em;
+min-height: 30em;
+}
+
+
+.team_pg_width {
+max-width:1440px;
+}
+
+.analytics_displaybox {
+display: -webkit-box;
+
+}
+
+.analytics_buttonbar {
+padding-left:1.5em;
+padding-right:0.5em;
+padding-top:0.5em;
+padding-bottom:0.5em;
+}
+
+.analytics_content .psc_open{
+margin-left:1.2em;
+}
+
+.grid_header_border .ps_box-grid-header_bar {
+border-bottom-width: 1px;
+border-bottom-style: solid;
+}
+
+.phone_select_view .ps_button_bar > div {
+display:block;
+}
+
+.phone_select_view .ps_button_bar > .ps_box-radio > .ps_box-label {
+width:100%;
+text-align:center;
+}
+
+.phone_select_view .ps_grid-row {
+  overflow:hidden;
+  cursor:pointer;
+  border-top: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  
+}
+.phone_select_view .ps_box-label {
+  width: 50%;
+
+}
+
+.phone_select_view .ps_box-grid-header_bar {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.phone_select_view {
+  margin-right:.5em;
+  border-bottom: 1px solid #bbb;
+}
+
+
+.hr_overflow-ellipsis {
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.overflow_label_wrap .ps_box-label {
+overflow:hidden;
+text-overflow: ellipsis;
+white-space:nowrap;
+}
+
+.overflow_label_wrap .ps-label {
+white-space:nowrap;
+}
+
+.psa_margin-bottom2_5px {
+margin-bottom: 2.5px !important;
+}
+
+.psa_min-height20px {
+	min-height: 20px !important;
+}
+
+.psa_min-height40px {
+	min-height: 40px !important;
+}
+
+.psa_max-height20px {
+	max-height: 20px !important;
+}

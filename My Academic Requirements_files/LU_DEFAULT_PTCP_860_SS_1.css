@@ -1,0 +1,14 @@
+
+
+
+:root {
+  --pt-banner-background-color: #5A0722; 
+  --pt-border-contrast-color: #591231; 
+  --pt-strip-height: 0px;
+}
+
+:root.psc_form-small {
+    --pt-strip-height: 0px;
+}
+
+

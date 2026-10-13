@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="25px" height="25px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
+<style type="text/css"><![CDATA[
+
+  @media (forced-colors: active) and (prefers-color-scheme: dark) {
+
+    [fill="#5C5C5C"],
+    [fill="#5c5c5c"] {
+      fill: #909090 !important;
+    }
+
+    [stroke="#5C5C5C"],
+    [stroke="#5c5c5c"] {
+      stroke: #909090 !important;
+    }
+  }
+
+  @media (forced-colors: active) and (prefers-color-scheme: light) {
+
+    [fill="#FFFFFF"],
+    [fill="#ffffff"],
+    [fill="#FBF9F8"],
+    [fill="#fbf9f8"],
+    [fill="#FBF9F9"],
+    [fill="#fbf9f9"] {
+      fill: #5C5C5C !important;
+    }
+
+    [stroke="#FFFFFF"],
+    [stroke="#ffffff"],
+    [stroke="#FBF9F8"],
+    [stroke="#fbf9f8"],
+    [stroke="#FBF9F9"],
+    [stroke="#fbf9f9"] {
+      stroke: #5C5C5C !important;
+    }
+  }
+
+]]></style>
+
+<path fill="#FBF9F8" d="M21.75,22.25H3.25V9.066l9.25-6.541l9.25,6.541V22.25z M5.25,20.25h14.5V10.101L12.5,4.975l-7.25,5.126
+	V20.25z"/>
+</svg>
